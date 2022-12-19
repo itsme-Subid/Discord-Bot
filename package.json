@@ -5,8 +5,8 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.ts",
+    "dev": "nodemon index.ts"
   },
   "keywords": [],
   "author": "",
