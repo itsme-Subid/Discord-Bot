@@ -15,7 +15,6 @@ const client = new Client({
     Partials.Reaction,
   ],
 });
-const keepAlive = require("./server");
 const dotenv = require("dotenv");
 dotenv.config();
 
@@ -43,5 +42,4 @@ client.on(
   }
 );
 
-keepAlive();
 client.login(token).catch(console.error);
