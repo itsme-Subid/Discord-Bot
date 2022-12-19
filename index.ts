@@ -15,6 +15,7 @@ const client = new Client({
     Partials.Reaction,
   ],
 });
+const keepAlive = require("./server");
 const dotenv = require("dotenv");
 dotenv.config();
 
@@ -28,7 +29,7 @@ client.on(
   async (message: {
     author: { bot: any };
     content: string;
-    reply: (message: string) => void;
+    reply: (msg: string) => void;
     react: (reaction: string) => void;
   }) => {
     if (message.author.bot) return;
@@ -42,4 +43,5 @@ client.on(
   }
 );
 
+keepAlive();
 client.login(token).catch(console.error);
