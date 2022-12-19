@@ -4,11 +4,13 @@ A Discord BOT using Node.js in typescript ✨
 
 ## 📡 Quick Start [Self-Hosting]
 
-### Requirements:
-
-- [TypeScript v4](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
-- [Node.js v18](https://nodejs.org/)
-- Atleast 1vCPU , 512MB RAM and 40GB Storage.
+> **_Note_**
+>
+> ### Requirements:
+>
+> - [TypeScript v4](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
+> - [Node.js v18](https://nodejs.org/)
+> - Atleast 1vCPU , 512MB RAM and 40GB Storage.
 
 ### Steps:
 
