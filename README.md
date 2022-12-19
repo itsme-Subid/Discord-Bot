@@ -4,7 +4,7 @@ A Discord BOT using Node.js in typescript ✨
 
 ## 📡 Quick Start
 
-> **_Note_**:
+> **_Warning_**:
 > This BOT is not yet ready for production. It is still in development. 🚧
 
 > ### Requirements:
