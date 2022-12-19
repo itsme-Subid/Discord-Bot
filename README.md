@@ -2,9 +2,10 @@
 
 A Discord BOT using Node.js in typescript ✨
 
-## 📡 Quick Start [Self-Hosting]
+## 📡 Quick Start
 
-> **_Note_** : This BOT is not yet ready for production. It is still in development. 🚧
+> **_Note_**:
+> This BOT is not yet ready for production. It is still in development. 🚧
 
 > ### Requirements:
 >
