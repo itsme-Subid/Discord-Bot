@@ -25,13 +25,13 @@ client.on("ready", () => {
 
 client.on("messageCreate", async (message: Msg) => {
   if (message.author?.bot) return;
-  else if (message.content === "yo ") {
+  else if (/yo /.test(message.content.toLowerCase())) {
     message.react("🔥");
     message.reply("YO!");
-  } else if (/hi /.test(message.content)) {
+  } else if (/hi /.test(message.content.toLowerCase())) {
     message.react("😉");
     message.reply("Hello ji!");
-  } else if (/hack /.test(message.content)) {
+  } else if (/hack /.test(message.content.toLowerCase())) {
     message.react("😈");
     hacker(message);
   }
